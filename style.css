@@ -12,13 +12,14 @@ body{
                         'second'
                             'third';
                             /* grid-template-columns: 60% 40%; */
-                            gap: 2fr;
+                            gap: 4rem;
                             background-image: url('imgs/bg-main-mobile.png');
                             background-repeat: no-repeat;
                             background-size: cover;
-                            background-position-x: 2rem;
-                            background-position-y: -15rem;
+                            background-position-x: -7rem;
+                            background-position-y: -39rem;
                             min-height: 100vh;
+                           grid-auto-rows: 1fr;
                  
 }
 
