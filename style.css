@@ -13,11 +13,8 @@ body{
                             'third';
                             /* grid-template-columns: 60% 40%; */
                             gap: 4rem;
-                            background-image: url('imgs/bg-main-mobile.png');
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            background-position-x: -7rem;
-                            background-position-y: -39rem;
+                       
+                           
                             min-height: 100vh;
                            grid-auto-rows: 1fr;
                  
@@ -25,6 +22,12 @@ body{
 
 #first{
 grid-area: 'first';
+background-image: url('imgs/bg-main-mobile.png');
+background-repeat: no-repeat;
+background-size: contain;
+
+background-position: top -20px right -20px;
+
 
 }
 
@@ -53,4 +56,12 @@ grid-area: 'second';
 
 #third{
 grid-area: 'third';
+}
+
+@media screen and (min-width:768px){
+    #container{
+        background-image: url('imgs/bg-main-tablet.png');
+        background-position-x: -25rem;
+        background-position-y: -15rem;
+    }
 }
