@@ -4,6 +4,10 @@
 
 body{
     font-family: 'IBM Plex Sans', sans-serif;
+    background-image: url('imgs/bg-main-mobile.png');
+    background-position: top -15rem right -15rem;
+    background-repeat: no-repeat;
+   
 }
 
 #container{
@@ -14,11 +18,9 @@ body{
                             /* grid-template-columns: 60% 40%; */
                             gap: 4rem;
                            
-                            background-image: url('imgs/bg-main-mobile.png');
-                        background-repeat: no-repeat;
-background-size: cover;
-                      
-                           
+                        
+                     
+                       
                             min-height: 100vh;
                            grid-auto-rows: 1fr;
                  
