@@ -61,9 +61,15 @@ grid-area: 'third';
 }
 
 @media screen and (min-width:768px){
-    #container{
-        background-image: url('imgs/bg-main-tablet.png');
-        background-position-x: -25rem;
-        background-position-y: -15rem;
-    }
+  body{
+    background-image: url('imgs/bg-main-tablet.png');
+    background-position-x: -25rem;
+    background-position-y: -15rem;
+  }
+
+  .words{
+ 
+    padding: 2rem;
+    width: 70%;
+}
 }
