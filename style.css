@@ -5,3 +5,31 @@
 body{
     font-family: 'IBM Plex Sans', sans-serif;
 }
+
+#container{
+  display: grid;
+  grid-template-areas: 'first'
+                        'second'
+                            'third';
+                            /* grid-template-columns: 60% 40%; */
+                            gap: 2fr;
+                            background-image: url('imgs/bg-main-mobile.png');
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position-x: 2rem;
+                            background-position-y: -15rem;
+                            min-height: 100vh;
+                 
+}
+
+#first{
+grid-area: 'first';
+}
+
+#second{
+grid-area: 'second';
+}
+
+#third{
+grid-area: 'third';
+}
