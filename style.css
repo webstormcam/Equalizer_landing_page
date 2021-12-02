@@ -79,6 +79,7 @@ grid-area: 'second';
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   width: 100%;
+  position: relative;
 }
 
 .orange{
@@ -86,6 +87,8 @@ grid-area: 'second';
   background-color: #FA7453;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
+  position:absolute;
+  bottom: -2rem;
 }
 
 #third{
