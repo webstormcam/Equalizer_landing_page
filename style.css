@@ -33,9 +33,20 @@ grid-area: 'first';
 
 }
 
+.first-content{
+  display: flex;
+flex-direction: row;
+}
+
+.logo{
+  width: 9rem;
+}
+
 .words{
     flex-direction: column;
     padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
 }
 
 h1{
@@ -51,6 +62,9 @@ h1{
     line-height: 1.7rem;
     font-weight: 400;
 }
+.color-top{
+  display: none;
+}
 
 #second{
 grid-area: 'second';
@@ -60,16 +74,93 @@ grid-area: 'second';
 grid-area: 'third';
 }
 
+
+
 @media screen and (min-width:768px){
   body{
     background-image: url('imgs/bg-main-tablet.png');
-    background-position-x: -25rem;
-    background-position-y: -15rem;
+    background-position: top -25rem right -20rem;
+    background-size: cover;
+    overflow-x: hidden;
+   
+
   }
+
+  h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 3.5rem;
+  
+}
+
+.logo{
+  margin-top: 2rem;
+}
+
+.words p{
+  font-size: 1.1rem;
+ 
+}
+
+.color-top{
+  display: block;
+  position: absolute;
+  top: -2rem;
+  right: -2rem;
+}
+
+#first{
+  display: flex;
+ justify-content: center;
+}
+
+.first-content{
+  position: relative;
+  max-width: 778px;
+
+}
+
+.top-color{
+  width: 14rem;
+ 
+}
 
   .words{
  
-    padding: 2rem;
-    width: 70%;
+  padding-left: 2rem;
+    width: 72%;
 }
+}
+
+@media  screen and (min-width:1440px) {
+  body{
+    background-image: url('imgs/bg-main-desktop.png');
+    background-position: top -15rem left -9rem;
+  }
+
+  .first-content{
+    position: relative;
+    max-width: 1300px;
+  
+  }
+
+  h1{
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 4.1rem;
+  
+}
+
+.top-color{
+  width: 17rem;
+ 
+}
+
+.words{
+ 
+ 
+  width: 60%;
+}
+
+
 }
