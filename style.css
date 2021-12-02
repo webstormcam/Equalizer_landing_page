@@ -135,7 +135,7 @@ grid-area: 'third';
 @media  screen and (min-width:1440px) {
   body{
     background-image: url('imgs/bg-main-desktop.png');
-    background-position: top -15rem left -9rem;
+    background-position: top -15rem left -4rem;
   }
 
   .first-content{
@@ -147,7 +147,8 @@ grid-area: 'third';
   h1{
     font-size: 5rem;
     font-weight: bold;
-    line-height: 4.1rem;
+    line-height: 5rem;
+    margin-top: 7rem;
   
 }
 
@@ -159,7 +160,12 @@ grid-area: 'third';
 .words{
  
  
-  width: 60%;
+  width: 70%;
+}
+
+.words p{
+  width: 90.1%;
+  line-height: 2rem;
 }
 
 
