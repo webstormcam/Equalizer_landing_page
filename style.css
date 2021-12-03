@@ -23,6 +23,8 @@ body{
                        
                             min-height: 100vh;
                            grid-auto-rows: 1fr;
+                         
+                     
                         
 
                           
@@ -113,7 +115,8 @@ grid-area: 'third';
   }
 
   #container{
-    width: 100%
+   width: 100%;
+   overflow-x: hidden;
   }
 
   
@@ -145,13 +148,14 @@ grid-area: 'third';
 .first-content{
   position: relative;
   max-width: 778px;
+  
  
 
 }
 
 .color-top{
   display: block;
-/* position: relative; */
+position: absolute;
   top: -2rem;
   right: -2rem;
 
