@@ -105,9 +105,14 @@ grid-area: 'third';
     background-position: top -25rem right -20rem;
     background-size: cover;
     overflow-x: hidden;
+
    
    
 
+  }
+
+  #container{
+    width: 100%
   }
 
   
@@ -124,7 +129,7 @@ grid-area: 'third';
 }
 
 .words p{
-  font-size: 1.1rem;
+  font-size: 1rem;
  
 }
 
@@ -145,19 +150,22 @@ grid-area: 'third';
 
 .color-top{
   display: block;
-  position: relative;
+/* position: relative; */
+  top: -2rem;
+  right: -2rem;
 
 }
 
 .top-color{
-  width: 14rem;
+  width: 17rem;
  
 }
 
   .words{
  
-  padding-left: 2.6rem;
-    width: 77%;
+  padding-left: 3rem;
+    width: 80%;
+    padding-right: 0rem;
 }
 
 
