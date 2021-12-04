@@ -319,11 +319,17 @@ height: 490px;
     left: 3rem;
   }
 
+  #third{
+    display: flex;
+    justify-content: center;
+  }
+
   .third-content{
     display: flex;
     flex-direction: row;
    justify-content: space-between;
    align-items: center;
+   width: 740px;
   }
 
   .socials{
