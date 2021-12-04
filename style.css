@@ -22,7 +22,7 @@ body{
                      
                        
                             min-height: 100vh;
-                        grid-template-rows: 550px 1024px 300px;
+                        grid-template-rows: 580px 1024px 300px;
                          
                      
                         
@@ -85,6 +85,12 @@ grid-area: 'second';
   border-top-right-radius: 1rem;
   width: 100%;
   position: relative;
+}
+
+.phone{
+  width: 15rem;
+  position: absolute;
+  top: -9rem;
 }
 
 .orange{
