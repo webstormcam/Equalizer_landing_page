@@ -194,6 +194,7 @@ position: absolute;
   .first-content{
     position: relative;
     max-width: 1300px;
+    padding-left: 4rem;
   
   }
 
@@ -213,12 +214,16 @@ position: absolute;
 .words{
  
  
-  width: 70%;
+  width: 75%;
 }
 
 .words p{
   width: 90.1%;
   line-height: 2rem;
+}
+
+.second-content{
+  max-width: 1100px;
 }
 
 
