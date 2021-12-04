@@ -234,7 +234,7 @@ grid-area: 'third';
   #container{
    width: 100%;
    overflow-x: hidden;
-   grid-template-rows: 600px 834px 300px;
+   grid-template-rows: 620px 634px 200px;
   }
 
   
@@ -300,20 +300,49 @@ position: absolute;
 
   .second-content{
     max-width: 700px;
-    max-height: 600px;
     border-radius: 1rem;
+    max-height: 600px;
+
   }
 
   .orange{
     width: 399px;
 bottom: 0rem;
+top: 9rem;
+left: 14rem;
+height: 490px;
   
   }
 
   .phone{
     width: 270.21px;
+    left: 3rem;
+  }
+
+  .third-content{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+  }
+
+  .socials{
+    margin-right: 2rem;
+  }
+
+
+  .bottom_words{
+    width: 396px;
     
   }
+
+  .social{
+    height: 1rem;
+  }
+
+ 
+   
+
 
 
 
