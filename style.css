@@ -99,8 +99,11 @@ grid-area: 'second';
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   position:absolute;
-  bottom: -2rem;
+  bottom: -8rem;
+  padding: 2rem;
 }
+
+
 
 #third{
 grid-area: 'third';
@@ -123,7 +126,7 @@ grid-area: 'third';
   #container{
    width: 100%;
    overflow-x: hidden;
-   grid-template-rows: 550px 696px 300px;
+   grid-template-rows: 600px 696px 300px;
   }
 
   
