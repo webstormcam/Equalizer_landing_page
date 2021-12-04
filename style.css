@@ -268,7 +268,19 @@ position: absolute;
 
   .second-content{
     max-width: 700px;
+    border-radius: 1rem;
   }
+
+  .orange{
+    width: 40%;
+bottom: 0rem;
+  
+  }
+
+
+
+
+
 }
 
 @media  screen and (min-width:1440px) {
