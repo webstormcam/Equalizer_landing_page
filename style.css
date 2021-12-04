@@ -96,11 +96,22 @@ grid-area: 'second';
 .orange{
   width: 100%;
   background-color: #FA7453;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
+  border-radius: 1rem;
   position:absolute;
-  bottom: -8rem;
+  bottom: -12rem;
   padding: 2rem;
+}
+
+.orange h2{
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.orange p{
+  color: #fff;
+  line-height: 1.5rem;
 }
 
 
