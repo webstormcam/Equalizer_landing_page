@@ -189,6 +189,11 @@ grid-area: 'third';
   padding-left: 1.4rem;
 }
 
+.logo_words{
+  display: flex;
+  flex-direction: column;
+}
+
 .bottom_words{
   width: 327px;
   margin-top: 2rem;
@@ -206,6 +211,10 @@ grid-area: 'third';
   width: 100px;
   justify-content: space-between;
   margin-top: 3rem;
+}
+
+.social:hover{
+   filter: invert(70%) sepia(26%) saturate(6881%) hue-rotate(324deg) brightness(98%) contrast(100%);;
 }
 
 
