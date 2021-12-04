@@ -218,8 +218,9 @@ position: absolute;
 }
 
 .words p{
-  width: 90.1%;
+  width: 87%;
   line-height: 2rem;
+  font-size: 1.1rem;
 }
 
 .second-content{
