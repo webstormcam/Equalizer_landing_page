@@ -22,7 +22,7 @@ body{
                      
                        
                             min-height: 100vh;
-                        grid-template-rows: 580px 1024px 300px;
+                        grid-template-rows: 580px 910px 270px;
                          
                      
                         
@@ -183,6 +183,29 @@ margin-top: 1rem;
 
 #third{
 grid-area: 'third';
+}
+
+.third-content{
+  padding-left: 1.4rem;
+}
+
+.bottom_words{
+  width: 327px;
+  margin-top: 2rem;
+  padding-right: 2rem;
+  line-height: 1.5rem;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.socials{
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  justify-content: space-between;
+  margin-top: 3rem;
 }
 
 
