@@ -113,6 +113,19 @@ grid-area: 'second';
   color: #fff;
   line-height: 1.5rem;
 }
+.monthly{
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+  align-items: center;
+
+}
+
+.dollar{
+  font-size: 4rem;
+  font-weight: bold;
+  margin-right: 0.7rem;
+}
 
 
 
