@@ -426,6 +426,7 @@ bottom: 0rem;
 top: 8rem;
 left: 36rem;
 height: 530px;
+padding: 3rem;
 
 }
 
@@ -445,6 +446,13 @@ height: 530px;
   width: 9rem;
   height: 3rem;
 }
+
+.button{
+ 
+  width: 85%;
+  padding-top: 1.2rem ;
+  padding-bottom: 1.2rem ;
+  }
 
 
 }
