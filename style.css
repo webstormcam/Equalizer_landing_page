@@ -410,5 +410,17 @@ height: 490px;
  width: 1150px;
 }
 
+.logo_words{
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 9rem;
+  height: 3rem;
+}
+
 
 }
