@@ -365,7 +365,7 @@ height: 490px;
   #container{
     width: 100%;
     overflow-x: hidden;
-    grid-template-rows: 550px 600px 300px;
+    grid-template-rows: 650px 600px 300px;
    }
 
   .first-content{
@@ -403,6 +403,21 @@ height: 490px;
 
 .second-content{
   max-width: 1100px;
+}
+
+.phone{
+  width: 312;
+  height:642px;
+  left: 13rem;
+}
+
+.orange{
+  width: 446px;
+bottom: 0rem;
+top: 8rem;
+left: 36rem;
+height: 530px;
+
 }
 
 .third-content{
