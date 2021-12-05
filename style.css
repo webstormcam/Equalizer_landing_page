@@ -218,6 +218,15 @@ grid-area: 'third';
 }
 
 
+@media screen and (min-width:475px) and (max-width:768px){
+  .orange{
+   
+    bottom: -24rem;
+  
+  
+  }
+}
+
 
 @media screen and (min-width:768px){
   body{
