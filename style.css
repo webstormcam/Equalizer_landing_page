@@ -374,7 +374,7 @@ height: 490px;
   #container{
     width: 100%;
     overflow-x: hidden;
-    grid-template-rows: 650px 600px 300px;
+    grid-template-rows: 750px 600px 400px;
    }
 
   .first-content{
@@ -394,7 +394,7 @@ height: 490px;
 }
 
 .top-color{
-  width: 17rem;
+  width: 20rem;
  
 }
 
